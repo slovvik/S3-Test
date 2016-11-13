@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class DriverSetup {
 
-    private static WebDriver driver;
+    protected static WebDriver driver;
 
     @BeforeClass
     public static void setupDriver() {

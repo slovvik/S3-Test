@@ -17,7 +17,7 @@ public class S3MainPage extends PageObject {
         assertTrue(careers.isDisplayed());
     }
 
-    public CareersFindPage findJob(String job) {
+    public CareersFindPage findJob() {
         careers.click();
         return new CareersFindPage(driver);
     }
